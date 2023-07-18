@@ -91,10 +91,22 @@
     line-height: normal;
 }
 .follow-us{
-    padding: 20px 20px;
+    padding: 10px 20px;
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    align-items: center;
+}
+.small-logo{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.small-logo2{
+    height: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Banner Section */
@@ -195,6 +207,7 @@
     margin: 50px 100px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 150px;
 }
 .play-poster{
     height: 700px;
@@ -218,4 +231,31 @@
 }
 .play-description h1,.play-description p{
     text-align: left;
+}
+
+/* Games catagory Section */
+.catagories{
+    margin: 50px 100px;
+
+}
+.catagories div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catagory{
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    /* border: 1px solid #0B0223; */
+    border-radius: 50px;
+    background: #FFF;
+}
+.catagory:hover{
+    border: 1px solid #FF42A5;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
