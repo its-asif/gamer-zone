@@ -30,6 +30,17 @@
     font-weight: 700;
     line-height: normal;
 }
+.title-style span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 .description-style{
     color: #534C64;
     text-align: center;
@@ -165,23 +176,6 @@
 /* Main Starts from here */
 
 /* Online Games Section */
-.online-games{
-
-}
-.games-title span{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.games-description{
-
-}
 .games-options{
     display: flex;
     /* justify-content: space-around; */
@@ -189,7 +183,7 @@
     gap: 40px;
 }
 .option{
-    width: 16%;
+    width: 18%;
 }
 .option img{
     width: 100%;
@@ -197,3 +191,31 @@
 
 
 /* Play Games Online */
+.play-games{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-poster{
+    height: 700px;
+    width: auto;
+}
+.poster-img1{
+    max-height: 600px;
+    width: auto;
+}
+.poster-img2{
+    position: relative;
+    bottom: 220px;
+    left: 500px;
+}
+.play-description{
+    align-items: center;
+}
+.play-description div{
+    margin: 100px;
+    max-width: 430px;
+}
+.play-description h1,.play-description p{
+    text-align: left;
+}
