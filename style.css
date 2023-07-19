@@ -20,6 +20,7 @@
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+    border: none;
 }
 .title-style{
     color: #0B0223;
@@ -184,6 +185,10 @@ header{
     width: fit-content;
     margin: 20px auto;
 }
+.btn2{
+    background: #4EC5F7;
+    margin-left: 20px;
+}
 /* Header Ends */
 
 
@@ -340,21 +345,115 @@ footer ul{
     margin-right: 20px;
 }
 
-/* @media screen and (max-width: 450px) {
+@media screen and (max-width: 450px) {
     header{
-        width: fit-content;
+        max-width: 450px;
         background-color: #3c354f2c;
     }
-    .navbar, .menu, .banner{
+    .navbar, .menu, .banner, .games-options{
         display: flex;
         flex-direction: column;
         padding-top: 30px;
     }
     .banner{
         height: max-content;
+        margin-top: 20px;
     }
     .banner-left,.banner-right{
-        width: 100%;
+        width: 400px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .banner-left h1{
+        font-size: 3em;
+    }
+    .banner-right img{
+        width: 400px;
+        height: auto;
+        margin: 0;
+        padding: 0;
     }
     
-} */
+    main{
+        margin-top: 100px;
+        max-width: 400px;
+    }
+    .option{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+    .play-games{
+        margin: 0;
+        margin-top: 150px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .play-poster{
+        height: max-content;
+    }
+    .poster-img1{
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+    .poster-img2{
+        width: 40%;
+        position: relative;
+        bottom: 80px;
+        left: 200px;
+    }
+    .play-description div{
+        margin: 0 auto;
+        max-width: 350px;
+    }
+    .play-description h1,.play-description p{
+        text-align: center;
+    }
+
+    .catagories{
+        margin: 50px 0px;
+    }
+    .catagories div{
+        row-gap: 0px;
+    }
+  
+    .catagory{
+        display: flex;
+        width: 33%;
+        gap: 0px;
+        font-size: 10px;
+    }
+
+    .catagory img{
+        width: 25px;
+        margin-right: 0;
+    }
+
+
+    
+  /* 
+.catagories div{
+    display: flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catagory img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.catagory:hover{
+    border: 1px solid #FF42A5;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 19%;
+}
+    */
+}
