@@ -457,3 +457,100 @@ footer ul{
         line-height: normal;
     }
 }
+
+@media screen and (max-width: 800px) and (min-width: 450px){
+    header{
+        max-width: 800px;
+    }
+    .navbar, .menu, .banner, .games-options{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .banner{
+        height: max-content;
+        margin-top: 20px;
+    }
+    .banner-left,.banner-right{
+        width: 700px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    .banner-left h1{
+        font-size: 3em;
+    }
+    .banner-right img{
+        width: 700px;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    main{
+        margin-top: 100px;
+        max-width: 700px;
+    }
+    .option{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+
+
+    .play-games{
+        margin: 0;
+        margin-top: 150px;
+        gap: 0px;
+        flex-direction: column;
+    }
+    .play-poster{
+        height: max-content;
+    }
+    .poster-img1{
+        display: block;
+        width: 80%;
+        height: auto;
+    }
+    .poster-img2{
+        width: 40%;
+        position: relative;
+        bottom: 150px;
+        left: 350px;
+    }
+    .play-description div{
+        margin: 0 auto;
+        max-width: 600px;
+    }
+    .play-description h1,.play-description p{
+        text-align: center;
+    }
+
+    .catagories{
+        margin: 50px 0px;
+    }
+    .catagories div{
+        row-gap: 0px;
+    }
+  
+    .catagory{
+        display: flex;
+        width: 30%;
+        gap: 0px;
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .catagory img{
+        width: 40px;
+    }
+    .catagory:hover{
+        border: 1px solid #FF42A5;
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        width: 28%;
+    }
+
+   
+}
