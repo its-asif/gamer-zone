@@ -190,7 +190,6 @@
 /* Online Games Section */
 .games-options{
     display: flex;
-    /* justify-content: space-around; */
     justify-content: center;
     gap: 40px;
 }
@@ -199,6 +198,35 @@
 }
 .option img{
     width: 100%;
+}
+.option>div{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay img{
+    height: 40px;
+    width: auto;
+}
+.option:hover .overlay{
+    opacity: .3;
+}
+.option:hover .overlay img{
+    opacity: 1;
 }
 
 
@@ -252,7 +280,7 @@
 .catagory{
     text-align: center;
     align-items: center;
-    /* padding: 10px 20px; */
+    padding: 10px 0px;
     /* border: 1px solid #0B0223; */
     border-radius: 50px;
     background: #FFF;
@@ -308,7 +336,4 @@ footer ul{
 }
 .footer-options {
     gap: 50px;
-}
-.fa-brands{
-    
 }
