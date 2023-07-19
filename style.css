@@ -174,8 +174,8 @@
     margin-bottom: 10px;
 }
 .banner-right img{
-    height: fit-content;
-    width: 100%;
+    height: 100%;
+    width: auto;
     /* background-image: url(images/Group\ 18.png); */
 }
 .banner-btns{
@@ -206,14 +206,18 @@
 .play-games{
     margin: 50px 100px;
     display: flex;
-    justify-content: space-between;
+    gap: 120px;
+    justify-content: center;
+    /* align-items: center; */
     margin-bottom: 150px;
 }
 .play-poster{
     height: 700px;
     width: auto;
+    padding-left: 50px;
 }
 .poster-img1{
+    display: block;
     max-height: 600px;
     width: auto;
 }
@@ -235,22 +239,29 @@
 
 /* Games catagory Section */
 .catagories{
-    margin: 50px 100px;
+    margin: 50px 50px;
 
 }
 .catagories div{
     display: flex;
-    gap: 20px;
+    row-gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 .catagory{
     text-align: center;
     align-items: center;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     /* border: 1px solid #0B0223; */
     border-radius: 50px;
     background: #FFF;
+    width: 20%;
+}
+.catagory img{
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
 }
 .catagory:hover{
     border: 1px solid #FF42A5;
@@ -258,4 +269,46 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: 19%;
+}
+
+
+
+/* Footer */
+footer{
+    background: #0B0223;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+footer .nav-title{
+    width: fit-content;
+    margin: 20px auto;
+    padding-top: 80px;
+}
+.nav-title span{
+    color : #FF42A5; 
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+footer ul{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+.footer-options {
+    gap: 50px;
+}
+.fa-brands{
+    
 }
