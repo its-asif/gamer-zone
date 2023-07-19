@@ -348,7 +348,6 @@ footer ul{
 @media screen and (max-width: 450px) {
     header{
         max-width: 450px;
-        background-color: #3c354f2c;
     }
     .navbar, .menu, .banner, .games-options{
         display: flex;
