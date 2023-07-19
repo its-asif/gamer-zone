@@ -53,6 +53,8 @@
 }
 
 /* Navbar Section */
+header{
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -268,20 +270,17 @@
 /* Games catagory Section */
 .catagories{
     margin: 50px 50px;
-
 }
 .catagories div{
     display: flex;
     row-gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 .catagory{
     text-align: center;
     align-items: center;
     padding: 10px 0px;
-    /* border: 1px solid #0B0223; */
     border-radius: 50px;
     background: #FFF;
     width: 20%;
@@ -337,3 +336,25 @@ footer ul{
 .footer-options {
     gap: 50px;
 }
+.fa-brands{
+    margin-right: 20px;
+}
+
+/* @media screen and (max-width: 450px) {
+    header{
+        width: fit-content;
+        background-color: #3c354f2c;
+    }
+    .navbar, .menu, .banner{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .banner{
+        height: max-content;
+    }
+    .banner-left,.banner-right{
+        width: 100%;
+    }
+    
+} */
