@@ -345,6 +345,7 @@ footer ul{
     margin-right: 20px;
 }
 
+/* Mobile View */
 @media screen and (max-width: 450px) {
     header{
         max-width: 450px;
@@ -386,6 +387,7 @@ footer ul{
 
     .play-games{
         margin: 0;
+        width: 425px;
         margin-top: 150px;
         gap: 0px;
         flex-direction: column;
@@ -414,6 +416,7 @@ footer ul{
 
     .catagories{
         margin: 50px 0px;
+        width: 425px;
     }
     .catagories div{
         row-gap: 0px;
@@ -424,11 +427,12 @@ footer ul{
         width: 30%;
         gap: 0px;
         font-size: 10px;
+        justify-content: space-around;
     }
 
     .catagory img{
         width: 25px;
-        margin-right: 0;
+        margin-right: 5px;
     }
     .catagory:hover{
         border: 1px solid #FF42A5;
@@ -444,9 +448,15 @@ footer ul{
         gap: 20px;
     }
     .footer-options {
-        gap: 10px;
-        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 18px;
     }
+    .footer-options li{
+        width: 25%;
+    }
+
     .footer-text{
         color: rgba(255, 255, 255, 0.60);
         text-align: center;
@@ -456,8 +466,17 @@ footer ul{
         font-weight: 500;
         line-height: normal;
     }
+    .footer-logos{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .fa-brands{
+        width: 30%;
+        margin: 25px 0;
+    }
 }
 
+/* Tablet View */
 @media screen and (max-width: 800px) and (min-width: 450px){
     header{
         max-width: 800px;
@@ -526,10 +545,11 @@ footer ul{
     }
 
     .catagories{
-        margin: 50px 0px;
+        margin: 50px auto;
     }
     .catagories div{
-        row-gap: 0px;
+        row-gap: 20px;
+
     }
   
     .catagory{
