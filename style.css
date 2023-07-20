@@ -363,8 +363,18 @@ footer ul{
         height: max-content;
         margin-top: 20px;
     }
+    .banner-left{
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .btn1, .btn2{
+        padding: 15px;
+        margin: 5px;
+        font-size: 16px;
+    }
     .banner-left,.banner-right{
-        width: 400px;
+        max-width: 400px;
         padding: 10px;
         margin-top: 30px;
     }
@@ -372,7 +382,7 @@ footer ul{
         font-size: 3em;
     }
     .banner-right img{
-        width: 400px;
+        max-width: 400px;
         height: auto;
         margin: 0;
         padding: 0;
@@ -391,7 +401,7 @@ footer ul{
 
     .play-games{
         margin: 0;
-        width: 425px;
+        max-width: 425px;
         margin-top: 150px;
         gap: 0px;
         flex-direction: column;
@@ -420,7 +430,7 @@ footer ul{
 
     .catagories{
         margin: 50px 0px;
-        width: 425px;
+        max-width: 425px;
     }
     .catagories div{
         row-gap: 0px;
