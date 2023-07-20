@@ -222,15 +222,19 @@ header{
     transition: .5s ease;
     background-color: black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.overlay p{
+    color: white;
 }
 .overlay img{
     height: 40px;
     width: auto;
 }
 .option:hover .overlay{
-    opacity: .3;
+    opacity: .6;
 }
 .option:hover .overlay img{
     opacity: 1;
